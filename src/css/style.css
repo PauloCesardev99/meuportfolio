@@ -1,0 +1,186 @@
+/*  Cabecalho /* #23272d cinza
+verde #33ffa9
+*/
+
+body{
+    background-color: #23272d;
+}
+
+.cabecalho{
+    text-align: center;
+    padding: 10px;
+    background-color: #23272d;
+    color: white;
+}
+.cabecalho nav ul{
+    display: inline-block;
+}
+.cabecalho nav ul li a{
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.473);
+    border-radius: 3px;
+
+}
+
+.cabecalho nav ul li a:hover{
+    color: #33ffa9;  
+    font-size: 30px;
+    transition: 0.3s;
+    font-weight: 900;
+}
+
+.logo{
+    color: #33ffa9;
+}
+
+.cabecalho h1{
+    font-size: 20px;
+    text-align: left;
+    text-shadow: 1px 1px 1px black;
+   
+}
+
+
+/*  About */
+
+.about{
+    padding: 10px;
+    background-color: #23272d;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.foto img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: solid 1px #33ffa9;
+}
+
+.foto img:hover{
+    opacity: 90.8%;
+    width: 310px;
+    height: 310px;
+    transition: 0.3s;
+}
+
+.about h2{
+    padding: 2px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    margin-top: 10px;
+    padding: 2px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/*  Tecnologia */
+
+.habilidades{
+    background-color: #23272d;
+    color: white;
+    margin-top: 10px;
+}
+
+.habilidades h2{
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.507);
+}
+
+.habilidades h2:hover{
+    color: #33ffa9;
+    font-weight: 900;
+    transition: 0.3s;
+}
+
+.tecnologias{
+    margin-top: 50px;
+    display: flex;
+    background-color: #23272d;
+}
+
+.stack{
+    padding: 10px;
+}
+
+.stack img{
+    width: 100px;
+    height: 100px;
+}
+
+
+/* Projects  */
+.projects{
+    background-color: #23272d;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.project{
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.555);
+}
+
+.projects h2:hover{
+    color: #33ffa9;
+    transition: 0.3s;
+}
+
+ .project img{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+
+}
+
+.project img:hover{
+    width: 200px;
+    height: 200px;
+    transition: 0.3s;
+}
+
+.project h2{
+    padding: 10px 0px 10px 0px;
+}
+
+.project p{
+    padding: 10px;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+/* Contacts */
+
+.contacts{
+    text-align: center;
+    margin-top: 10px;
+    background-color: #23272d;
+    color: white;
+
+}
+
+.social{
+    margin-top: 10px;
+}
+
+.social ul{
+    display: flex;
+    justify-content: center
+}
+
+.social ul li a img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
