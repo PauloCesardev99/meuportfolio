@@ -11,12 +11,16 @@
 <body>
     <header class="cabecalho">
         <h1><span class="logo">&lt;&sol;</span> R3RO</h1>
-        <nav>
-            <ul>
+        <menu>
+            <img src="src/img/png/menu.webp" alt="menu" id="menu">
+            <img src="src/img/png/menu.webp" alt="menu2" id="menu2">
+        </menu>
+        <nav >
+            <ul id="nav" >
                 <li> <a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#social">Contacts</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#social">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -25,14 +29,17 @@
                 <div class="foto">
                     <img src="src/img/Eu.jpg" alt="Eu">
                 </div>
-                <h2>Olá meu nome é <span class="logo">R3RO</span> sou um desenvolvedor front end</h2>
-                <p>Comecei estudando programação em dezembro de 2022 no Curso em Vídeo do Professor Gustavo guanabara. meu primeiro toque na programação foi com o curso lógica de programação do Gustavo Guanabara. </p>
-                <p>Em 2023 comecei meu superior em Analise e desenvolvimento de sistema e me especializar em desenvolvimento Web.</p>
+                <div class="sobre">
+                 <h2>Olá meu nome é <span class="logo">R3RO</span> sou um desenvolvedor front end</h2>
+                 <p>Comecei estudando programação em dezembro de 2022 no Curso em Vídeo do Professor Gustavo guanabara. meu primeiro toque na programação foi com o curso lógica de programação do Gustavo Guanabara. </p>
+                 <p>Em 2023 comecei meu superior em Analise e desenvolvimento de sistema e me especializar em desenvolvimento Web.</p>
+                 </div>
         </section>
 
         <section class="habilidades">
             <h2>Habilidades:</h2>
             <div class="tecnologias">
+
            <div class="stack">
             <img src="src/img/png/003-html-5.png" alt="Html">
            </div>
@@ -55,21 +62,24 @@
         <section class="projects">
             <h2>Projetos</h2>
             <div class="project">
-                <img src="src/img/png/rick.png" alt="rick" >
+                <div class="projeto">
+                <img src="src/img/png/rick.png" alt="rick">
+                </div>
                 <h2>Tela de login rick e morty</h2>
-                <p>Tela de login com requesições de preenchimento de input em javascript. as tecnologias usadas foram html, css e javascript.<a href="https://paulocesardev99.github.io/tela_de_login_rickemorty/" target="_blank"> Saiba mais</a></p>
+                <p>Tela de login com requesições de preenchimento de input em javascript. as tecnologias usadas foram html, css e javascript.<a href="https://paulocesardev99.github.io/tela_de_login_rickemorty/" target="_blank"> <span class="saiba-mais">Saiba mais</span> </a></p>
+                
             </div>
 
             <div class="project">
                 <img src="src/img/png/lofi-removebg-preview.png" alt="lofi">
                 <h2>Site gênero lo-fi</h2>
-                <p>Site falando sobre a história do gênero musical lofi. tecnologias usadas foram html e css. <a href="https://paulocesardev99.github.io/projeto-lofi/" target="_blank">Saiba mais</a> </p>
+                <p>Site falando sobre a história do gênero musical lofi. tecnologias usadas foram html e css. <a href="https://paulocesardev99.github.io/projeto-lofi/" target="_blank"> <span class="saiba-mais">Saiba mais</span> </a> </p>
             </div>
 
             <div class="project">
                 <img src="src/img/png/cafe.png" alt="codecafe">
                 <h2>Code café</h2>
-                <p>Landing page do code-café feito no curso Devquest. as tecnologias usadas foram html e css. <a href="https://paulocesardev99.github.io/cafe/" target="_blank" rel="noopener noreferrer"> Saiba mais</a></p>
+                <p>Landing page do code-café feito no curso Devquest. as tecnologias usadas foram html e css. <a href="https://paulocesardev99.github.io/cafe/" target="_blank" rel="noopener noreferrer"> <span class="saiba-mais">Saiba mais</span></a></p>
             </div>
         
         </section>
@@ -86,14 +96,15 @@
         
         <div class="social" id="social">
             <ul>
-                <li><a href="#"><img src="src/img/png/logo-github.jpg" alt="github"></a></li>
-                <li><a href="#"><img src="src/img/png/logo-instagram.jpg" alt="instagram"></a></li>
-                <li><a href="#"><img src="src/img/png/likedinlogo.png" alt="instagram"></a></li>
+                <li><a href="https://github.com/PauloCesardev99" target="_blank"><img src="src/img/png/logo-github.jpg" alt="github" ></a></li>
+                <li><a href="#" target="_blank"><img src="src/img/png/logo-instagram.jpg" alt="instagram"></a></li>
+                <li><a href="https://www.linkedin.com/in/r3ro/" target="_blank"><img src="src/img/png/likedinlogo.png" alt="linkedin"></li>
             </ul>
         </div>
             
     </footer>
 
-  
+
+    <script src="index.js"></script>
 </body>
 </html>

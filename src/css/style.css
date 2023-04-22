@@ -12,9 +12,16 @@ body{
     background-color: #23272d;
     color: white;
 }
-.cabecalho nav ul{
-    display: inline-block;
+#menu2{
+    display: none;
+    text-align: center;
 }
+
+.cabecalho nav ul{
+    display: none;
+   /* display: inline-block; */
+}
+
 .cabecalho nav ul li a{
     display: inline-block;
     font-size: 25px;
@@ -42,8 +49,22 @@ body{
    
 }
 
+.cabecalho menu img{
+    text-align: center;
+    width: 50px;
+    height: auto;
+    background-color:  #33ffa9;
+    border-radius: 50%;
+}
 
-/*  About */
+.cabecalho menu img:hover{
+    width: 60px;
+    transition: 0.3s;
+
+}
+
+
+/*  ABOUT */
 
 .about{
     padding: 10px;
@@ -82,7 +103,7 @@ body{
     line-height: 25px;
 }
 
-/*  Tecnologia */
+/*  TECNOLOGIA */
 
 .habilidades{
     background-color: #23272d;
@@ -117,7 +138,7 @@ body{
 }
 
 
-/* Projects  */
+/* PROJETOS  */
 .projects{
     background-color: #23272d;
     color: white;
@@ -128,7 +149,9 @@ body{
     text-align: center;
     margin-top: 50px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.555);
+    position: relative;
 }
+
 
 .projects h2:hover{
     color: #33ffa9;
@@ -140,6 +163,10 @@ body{
     height: 150px;
     cursor: pointer;
 
+}
+
+.seta{
+    width: 20px;
 }
 
 .project img:hover{
@@ -183,4 +210,22 @@ body{
     height: 30px;
     border-radius: 50%;
     margin-left: 10px;
+}
+.social ul li a img:hover{
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+    
+}
+
+.saiba-mais{
+    color: #33ffa9;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+.saiba-mais:hover{
+    font-size: 30px;
+    transition: 0.5s;
 }
