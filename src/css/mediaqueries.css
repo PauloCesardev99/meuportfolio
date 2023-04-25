@@ -1,0 +1,106 @@
+@media  (min-width: 600px){
+    body{
+        display: grid;
+        grid-template-areas: "cabecalho cabecalho"
+                            "about about"
+                            "habilidades habilidades"
+                            "projetos projetos"
+                            "contacts contacts";
+    }
+    /*  Cabecalho */
+    .cabecalho{
+        grid-area: cabecalho;
+        display: flex;
+        justify-content: space-between;
+    }
+    .cabecalho menu{
+        display: none;
+    }
+    .cabecalho nav ul {
+        display: flex;
+        align-self: flex-end;
+        
+    }
+
+    .cabecalho nav ul li{
+        margin-left: 10px;
+    }
+
+    /*           SOBRE       */
+
+    .about{
+        grid-area: sobre;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .foto img{
+        width: 320px;
+        height: 320px;
+    }
+     .foto img:hover{
+        width: 350px;
+        height: 350px;
+        transition: 0.3s;
+    
+    }
+
+    .about p{
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+
+    .sobre h2{
+        font-size: 32px;
+    }
+
+    
+
+    .habilidades{
+        grid-area: habilidades;
+    }
+    .habilidades .tecnologias{
+        display: flex;
+        justify-content: center;
+    }
+            /* Projetos*/
+    .projects{
+        grid-area: projetos;
+        display: flex;
+        justify-content: space-between;
+    }
+    .project{
+        border: solid 2px #33ffa9;
+        margin-left: 5px;
+        border-radius: 10px;
+    }
+
+    .project img{
+        margin-top: 10px;
+    }
+
+    /*     Contato    */
+
+    .contacts{
+        grid-area: contacts;
+    }
+
+    .contacts h2{
+        margin-top: 10px;
+    }
+
+    .social ul li a img{
+        width: 50px;
+        height: auto;
+    }
+    .social ul{
+        margin-top: 30px;
+    }
+
+    .social ul li a img:hover{
+        width: 60px;
+        height: auto;
+    }
+
+}
