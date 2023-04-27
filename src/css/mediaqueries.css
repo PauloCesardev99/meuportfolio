@@ -12,6 +12,8 @@
         grid-area: cabecalho;
         display: flex;
         justify-content: space-between;
+        height: 80px;
+        background-color: rgba(0, 0, 0, 0.418);
     }
     .cabecalho menu{
         display: none;
@@ -84,6 +86,7 @@
 
     .contacts{
         grid-area: contacts;
+        background-color: rgba(0, 0, 0, 0.418);
     }
 
     .contacts h2{
