@@ -14,6 +14,7 @@
         justify-content: space-between;
         height: 80px;
         background-color: rgba(0, 0, 0, 0.418);
+        border-bottom: solid 1px #33ffa9;
     }
     .cabecalho menu{
         display: none;
@@ -52,9 +53,13 @@
         line-height: 40px;
     }
 
-
+    
     .sobre h2{
         font-size: 32px;
+    }
+
+    .sobre{
+        padding-right: 30px ;
     }
 
     
