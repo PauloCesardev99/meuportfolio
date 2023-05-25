@@ -81,12 +81,6 @@ body{
     border: solid 1px #33ffa9;
 }
 
-.foto img:hover{
-    opacity: 90.8%;
-    width: 310px;
-    height: 310px;
-    transition: 0.3s;
-}
 
 .about h2{
     padding: 2px;
@@ -162,7 +156,6 @@ body{
     text-align: center;
     margin-top: 50px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.555);
-    position: relative;
 }
 
 
@@ -174,7 +167,6 @@ body{
  .project img{
     width: 150px;
     height: 150px;
-    cursor: pointer;
 
 }
 
@@ -182,11 +174,6 @@ body{
     width: 20px;
 }
 
-.project img:hover{
-    width: 200px;
-    height: 200px;
-    transition: 0.3s;
-}
 
 .project h2{
     padding: 10px 0px 10px 0px;
@@ -197,6 +184,18 @@ body{
     font-size: 18px;
     text-align: justify;
     line-height: 25px;
+}
+
+.saiba-mais{
+    color: #33ffa9;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+.saiba-mais:hover{
+    font-weight: 700;
+    transition: 0.5s;
 }
 
 /* Contacts */
@@ -240,14 +239,4 @@ body{
     
 }
 
-.saiba-mais{
-    color: #33ffa9;
-    font-size: 20px;
-    text-decoration: underline;
 
-}
-
-.saiba-mais:hover{
-    font-size: 30px;
-    transition: 0.5s;
-}
