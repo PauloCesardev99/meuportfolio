@@ -12,7 +12,7 @@ body{
     background-color: #23272d;
     color: white;
 }
-#menu2{
+.menu:last-child{
     display: none;
     text-align: center;
 }
