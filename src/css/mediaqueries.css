@@ -31,6 +31,10 @@
 
     /*           SOBRE       */
 
+    main{
+        width: auto;
+    }
+
     .about{
         grid-area: sobre;
         display: grid;
