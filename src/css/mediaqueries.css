@@ -13,8 +13,7 @@
         display: flex;
         justify-content: space-between;
         height: 80px;
-        background-color: rgba(0, 0, 0, 0.418);
-        border-bottom: solid 1px #33ffa9;
+        border-bottom: solid 2px blue;
     }
     .cabecalho menu{
         display: none;
@@ -71,6 +70,10 @@
         display: flex;
         justify-content: center;
     }
+    .stack img{
+        width: 100px;
+        height: 100px;
+    }
             /* Projetos*/
     .projects{
         grid-area: projetos;
@@ -80,7 +83,6 @@
     }
     .project{
         width: 400px;
-        border: solid 2px #33ffa9;
         margin-left: 5px;
         border-radius: 10px;
     }
@@ -93,7 +95,8 @@
 
     .contacts{
         grid-area: contacts;
-        background-color: rgba(0, 0, 0, 0.418);
+        border-top: solid 2px blue;
+       
     }
 
     .contacts h2{
@@ -108,9 +111,5 @@
         margin-top: 30px;
     }
 
-    .social ul li a img:hover{
-        width: 60px;
-        height: auto;
-    }
 
 }

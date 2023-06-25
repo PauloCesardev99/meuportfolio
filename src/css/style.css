@@ -3,14 +3,14 @@ verde #33ffa9
 */
 
 body{
-    background-color: #23272d;
+    background-color: rgba(255, 255, 255, 0.884);
 }
 
 .cabecalho{
     text-align: center;
     padding: 10px;
-    background-color: #23272d;
-    color: white;
+    background-color: white;
+    color: black;
 }
 .menu:last-child{
     display: none;
@@ -32,14 +32,14 @@ body{
 }
 
 .cabecalho nav ul li a:hover{
-    color: #33ffa9;  
+    color:blue;  
     font-size: 30px;
     transition: 0.3s;
     font-weight: 900;
 }
 
 .logo{
-    color: #33ffa9;
+    color: blue;
 }
 
 .cabecalho h1{
@@ -53,7 +53,7 @@ body{
     text-align: center;
     width: 50px;
     height: auto;
-    background-color:  #33ffa9;
+    background-color:  blue;
     border-radius: 50%;
 }
 
@@ -73,9 +73,9 @@ main{
 
 .about{
     padding: 10px;
-    background-color: #23272d;
+    background-color: white;
     text-align: center;
-    color: white;
+    color: black;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -83,7 +83,7 @@ main{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: solid 1px #33ffa9;
+    border: solid 1px blue;
 }
 
 
@@ -105,8 +105,7 @@ main{
 /*  TECNOLOGIA */
 
 .habilidades{
-    background-color: #23272d;
-    color: white;
+    color: black;
     margin-top: 10px;
 }
 
@@ -117,7 +116,7 @@ main{
 }
 
 .habilidades h2:hover{
-    color: #33ffa9;
+    color: blue;
     font-weight: 900;
     transition: 0.3s;
 }
@@ -126,7 +125,6 @@ main{
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    background-color: #23272d;
     justify-content: center;
 }
 
@@ -144,29 +142,31 @@ main{
 #projeto{
     margin-top: 30px;
     text-align: center;
-    color: white;
+    color: black;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.507);
     font-size: 1.5em;
 }
 #projeto:hover{
-    color: #33ffa9;
+    color: blue;
 }
 
 .projects{
-    background-color: #23272d;
-    color: white;
+    color: black;
     text-align: center;
     margin-top: 10px;
 }
 .project{
+    height: 400px;
     text-align: center;
     margin-top: 50px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.555);
+    border: solid 5px black;
+    border-radius: 30px;
 }
 
 
 .projects h2:hover{
-    color: #33ffa9;
+    color: blue;
     transition: 0.3s;
 }
 
@@ -192,10 +192,16 @@ main{
     line-height: 25px;
 }
 
+.link{
+    width: 300px;
+    margin-top: 30px;
+
+}
+
 .saiba-mais{
-    color: #33ffa9;
+    border: solid 1px black;
+    color: rgba(89, 0, 255, 0.788);
     font-size: 20px;
-    text-decoration: underline;
 
 }
 
@@ -209,8 +215,7 @@ main{
 .contacts{
     text-align: center;
     margin-top: 10px;
-    background-color: #23272d;
-    color: white;
+    color: black;
 
 }
 
@@ -219,7 +224,7 @@ main{
 }
 
 .contacts h2:hover{
-    color: #33ffa9;
+    color: blue;
     
 }
 
@@ -237,12 +242,6 @@ main{
     height: 50px;
     border-radius: 50%;
     margin-left: 10px;
-}
-.social ul li a img:hover{
-    width: 40px;
-    height: 40px;
-    transition: 0.3s;
-    
 }
 
 
